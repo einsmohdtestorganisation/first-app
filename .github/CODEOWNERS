@@ -1,0 +1,13 @@
+# This file defines who must review PRs
+# Syntax: file-pattern @team-name or @username
+
+# All files require Team Lead approval
+* @einsmohdtestorganisation/team-lead
+
+# You can also specify individual TLs
+# * @tl-username1 @tl-username2
+
+# Optional: Specific folders for specific leads
+# /backend/* @backend-lead-username
+# /mobile/* @mobile-lead-username
+# /database/* @database-lead-username
